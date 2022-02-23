@@ -40,7 +40,7 @@ public class MyLinkedList<K> {
     }
 
     public INode pop() {
-        INode tempNode = this.head;
+        INode tempNode = this.tail;
         this.head = head.getNext();
         return tempNode;
     }
